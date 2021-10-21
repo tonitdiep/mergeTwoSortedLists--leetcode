@@ -19,6 +19,7 @@ Output: [1,1,2,3,4,4]
  * @param {ListNode} l2
  * @return {ListNode}
  */
+//pair program update w/ algo club drove by Shelby along with Rebecca and Martin
 var mergeTwoLists = function(l1, l2) {
 
     //base case
@@ -33,7 +34,7 @@ var mergeTwoLists = function(l1, l2) {
         l2.next = mergeTwoLists(l1, l2.next)        
         return l2
     }
-    
+
 };
 
 //do it recursion, what's base case
